@@ -8,7 +8,8 @@ overflow: hidden;
 
  .character-container {
     display: flex;
-    flex-flow: wrap;
+    flex-flow:row;
+    flex-wrap: wrap;
     color: white;
     padding: 10px;
     margin: 5px;
@@ -19,6 +20,13 @@ overflow: hidden;
     
 }
 
+.single-event-card {
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
 
 
 .admin-data{
