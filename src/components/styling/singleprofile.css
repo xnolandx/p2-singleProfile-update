@@ -1,0 +1,303 @@
+ .single-profile-container{
+display: flex;
+padding-top: 6rem;
+overflow: hidden;
+}
+
+
+
+ .character-container {
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+
+
+.admin-data{
+    display: block; 
+    background-color: #666;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.connection-data{
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(102, 102, 102, 0.357);
+    border-style: solid;
+    border-color: black;
+    border-width: .05rem;
+    height: auto;
+    width:auto;
+    padding: .50rem;  
+}
+.appearance-data{
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(102, 102, 102, 0.357);
+    border-style: solid;
+    border-color: black;
+    border-width: .05rem;
+    height: auto;
+    width:auto;
+    padding: .50rem;  
+}
+.bio-data{
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(102, 102, 102, 0.357);
+    border-style: solid;
+    border-color: black;
+    border-width: .05rem;
+    height: 500px;
+    max-width: fit-content;
+    padding: .50rem; 
+    max-width: 350px;
+}
+
+.character-info-container{
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(102, 102, 102, 0.357);
+    border-style: solid;
+    border-color: black;
+    border-width: .05rem;
+    height: 500px;
+    width: 350px;
+    padding: .50rem; 
+}
+
+.events-container{
+    display: flex;
+    flex-flow:wrap;
+    justify-content:stretch;
+    background-color: rgba(102, 102, 102, 0.357); 
+    justify-items: center;
+   
+    align-items: center;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: .10rem;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 1rem;
+    
+    /* overflow: hidden; */
+    /* grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px; */
+
+}
+
+
+.character-title {
+    text-align: center;
+    font: 500
+}
+.alignment{
+    text-align: center;
+}
+
+
+
+.description {
+
+}
+
+.char-image{
+
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    width: 20rem;
+
+}
+
+
+
+.character-appearance{
+
+}
+
+.character-connections{
+
+}
+
+
+
+
+
+
+
+/* .events-container{
+    background-color: rgba(102, 102, 102, 0.357); 
+    align-content:flex-end;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: .10rem;
+    width: 100%
+
+} */
+
+.events-thumbnail {
+display: flex;
+flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 2, 2, 0.2) 0px 2px 8px 0px;
+    font-size: 10px;
+    text-transform: capitalize;
+    
+    text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    margin: auto;
+    
+}
+.thumbnail-caption{
+    align-content: center;
+}
+
+.character-events{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* .events-container-header{
+    background-color: aqua;
+    width: 100%;
+    display:block;
+
+} */
+.event-card{
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.event-link-text{
+    
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+    
+
+
+
+
+
+
+
+/* .character-image{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center; 
+    width: 100rem;
+    
+} */
+
+.image{
+    display: flex;
+    flex-flow: wrap;
+    height: 500px;
+    width: 350px;
+    justify-items: center;
+
+}
+
+.link-text{
+    text-decoration-line: none;
+}
+
+.all-the-buttons{
+    display: flex; 
+     flex-wrap:wrap;
+    flex-flow:row;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/* need each button listed out for styling */
+
+
+
+.hope{
+    display: flex;
+    flex-flow: wrap;
+justify-content:space-evenly;
+gap: 40px;
+
+}
+
+.chart-and-search{
+    display: flex;
+    flex-flow:row;
+}
+
+.chart-container{
+    display:flex;
+    bottom: 26.5rem;
+    left: 5rem;
+    flex-flow: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgba(255, 235, 243, 0.62);
+    border-width: .10rem;
+ padding-top: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+}
+
+.hiddenButton{
+    display: none;
+}
+
+.hiddenButton2{
+    visibility: hidden; 
+}
+
+.compare-container{
+    /* background-color: rgba(127, 255, 212, 0.403); */
+    text-decoration-line: none;
+    padding-top: 1rem;
+}
+
+.hero-results-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#compare-search{
+    
+}
+
+.result-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}

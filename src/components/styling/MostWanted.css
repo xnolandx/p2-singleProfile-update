@@ -1,0 +1,53 @@
+.most-wanted-header {
+  font: bold italic 60px monospace;
+  color: maroon;
+  width: 50%;
+  margin-left: 30%;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 10%;
+}
+.leftright {
+  display: flex;
+  flex:1;
+  gap: 0px;
+  padding: 0px;
+  margin: auto;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex:1;
+  gap: 0px;
+  padding: 0px;
+  margin: auto;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex:2;
+  flex-grow: 2;
+  padding: 0;
+  margin: 0;
+  height: 150px;
+  font: bold italic 60px monospace;
+  color: maroon;
+  align-items: center;
+}
+hr {
+  align: left;
+  width: 50%;
+  height: 4px;
+  background-color:maroon;
+  border: none;
+  margin-top: 30px;
+  margin-bottom:30px;
+  margin-left: 10%;
+}

@@ -1,0 +1,46 @@
+@import 'homepage.css';
+@import 'eventsearch.css';
+@import 'mainsearch.css';
+@import 'singleprofile.css';
+@import 'singleevent.css';
+@import 'footer.css';
+@import 'MostWanted.css';
+@import 'navbar2.css';
+
+
+
+.full-page-container {
+    background-image: url('https://i.etsystatic.com/5295659/r/il/3c87a0/1895126814/il_794xN.1895126814_m3kl.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: 'BentonSans, Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+    min-height: 92.2vh;
+    min-width: 100%;
+    background-position: center center;
+    margin: 0;
+    padding:0;  
+    box-sizing: border-box;
+    background-attachment: fixed;
+    display: grid;
+    /* height: 100vh;
+    width: 100vh; */
+    position: relative;
+    
+
+  }
+
+  html,body {
+    margin:0px;
+    padding:0px;
+    min-height: 100vh;
+    margin-bottom: 0px;
+    
+
+}
+
+.noscroll { 
+  overflow: hidden;
+}
+
+/* Disable <body scroll="no" style="overflow: hidden"> in html to start scrolling option  */

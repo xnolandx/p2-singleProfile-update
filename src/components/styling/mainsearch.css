@@ -1,0 +1,67 @@
+.main-search-bar {
+  /* display: flex;
+  position: center;
+  max-width: 200px;
+  max-height: 50px;
+  justify-content: center;
+  align-items: center; */
+
+ 
+  width: 200px;
+  height: 50px;
+  margin: 120px auto;
+  /* text-align: center;
+  display: inline-block; */
+
+}
+
+
+.hero-results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.hero-thumbnail {
+    height: 150px;
+    width: auto;
+    align-items: center;
+    border-style: solid;
+    box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; ;
+  }
+  
+  .hero-card {
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    /* padding: 1em; */
+    box-shadow: rgba(236, 18, 18, 0.2) 0px 2px 8px 0px;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:black;
+    background-color: rgb(187, 185, 183, .25);
+    /* opacity: .4; */
+    
+  }
+
+
+  .hero-card:hover {
+  box-shadow: rgb(255, 255, 255);
+  scale: 1.05;
+  border-color: black;
+  border-width: 5px;
+  
+
+  }
+
+  h4 {
+    text-decoration-line: none;
+  }
